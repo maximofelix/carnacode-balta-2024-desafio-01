@@ -1,0 +1,105 @@
+html, body {
+    margin: 1rem auto;
+    padding: 0;
+    display: flex;
+    font-family: "Inter", serif;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border: 2px solid #45FEFE;
+    border-radius: 15px;
+}
+
+.title {
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.search-data-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.search-data-container input {
+    font-size: 70%;
+    color: #000;
+    width: 80%;
+    padding: 2.5% 3%;
+    border: 1.75px solid #E8E8E8;
+    border-radius: 20px;
+    background-color: #F6F6F6;
+}
+
+.calculsList {
+    display: flex;
+    flex-direction: column;
+    font-size: 50%;
+    align-items: center;
+}
+
+.firstItem {
+    border: 1px solid #E8E8E8;
+    border-style: none none solid none;
+}
+
+.secondItem {
+    border: 1px solid #E8E8E8;
+    border-style: none none solid none;
+}
+
+.tumbnail {
+    background-color: #F6F6F6;
+    width: 45px;
+    height: 45px;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+.tumbnail-container {
+    display: flex;
+    align-items: center;
+}
+
+.titleDate {
+    display: flex;
+    align-items: center;
+    gap: 34%;
+}
+
+.titleDate h4 {
+    margin: 0;
+}
+
+.dateFirstItem {
+    margin-left: auto;
+    margin-right: 0;
+    color: #522020;
+}
+
+.dateSecondItem {
+    margin-left: auto;
+    margin-right: 0;
+    color: #BDBDBD;
+}
+
+.description {
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+    html, body {
+        font-size: 130%;
+    }
+    
+    .search-data-container input {
+        width: 100%;
+    }
+}

@@ -1,0 +1,55 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    font-family: "Inter", serif;
+}
+
+.title {
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.imc-data-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.imc-data-container input {
+    font-size: 110%;
+    padding: 4%;
+    border: 2px solid #E8E8E8;
+    border-radius: 8px;
+    background-color: #F6F6F6;
+}
+
+.ageCaptcha-container {
+    padding: 15px 0;
+}
+
+.button-request-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.button-request-container button {
+    font-size: 115%;
+    width: 100%;
+    font-weight: 600;
+    padding: 4%;
+    border-radius: 25px;
+}
+
+.btnCalculate {
+    background-color: #45FEFE;
+    border: 0 solid;
+}
+
+.btnUnderstand {
+    background-color: #FFFFFF;
+    border: 4px solid #45FEFE;
+}
