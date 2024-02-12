@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="css/imc-calculator.css">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+<div class="app-container">
+    <form action="">
+        <div class="title-container">
+            <h1 class="title">Cálculo de IMC</h1>
+        </div>
+        <div class="input-container">
+            <div class="imc-data-container">
+                <input class="inputHeight" type="text" placeholder="Altura"/>
+                <input class="inputWeight" type="text" placeholder="Peso"/>
+                <input class="inputSex" type="text" placeholder="Sexo"/>
+            </div>
+        </div>
+        <div class="ageCaptcha-container">
+            <input class="ageCaptcha" id="ageCaptcha" type="checkbox">
+            <label for="ageCaptcha">Eu tenho 65 anos ou mais</label>
+        </div>
+        <div class="button-request-container">
+            <button class="btnCalculate" type="submit">Calcular meu IMC</button>
+            <button class="btnUnderstand" type="submit">Entenda o cálculo</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
