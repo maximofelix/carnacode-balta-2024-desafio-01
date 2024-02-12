@@ -14,7 +14,7 @@ Neste primeiro desafio, desenvolvemos todo a parte de HTML e CSS da aplicação 
 * CSS
 
 ### Ferramentas Utilizadas
-* Visual Studio Code
+* Visual Studio
 
 # Recompensa
 <img src="https://baltaio.blob.core.windows.net/temp/carnacode-badge-desafio-01.png" alt="CarnaCode 2024 - Primeiro Desafio Completo" width="256" />
